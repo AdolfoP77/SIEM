@@ -82,7 +82,7 @@ Select Connect.
 <br>
 
 Step 5:
-Set up Azure Sentinel 
+Set up Azure Sentinel, this is the SIEM we will use to visualize attack data.
 
 
 
