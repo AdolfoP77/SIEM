@@ -37,8 +37,27 @@ Select Review and create.
 Our VM is complete.
 ![VM14](https://user-images.githubusercontent.com/107056915/173632506-c4cd8039-0f11-4e27-b23b-e82c7486d4b9.png)
 
+<br>
+
 Step 3:
-Log Analytics
+Log Analytics.
+We will ingest logs from the VM, and create our own custom log that contains Geographics information to identify where the attacks on the VM are coming from.
+<br>
+Browse to the Log Analytics workspace by using the search bar.
+![VM15](https://user-images.githubusercontent.com/107056915/173635916-714abf58-ca0d-4cf6-af3f-9b52d8175889.png)
+Select Create log analytics workspace.
+![VM16](https://user-images.githubusercontent.com/107056915/173635937-f2580768-54f4-4255-a422-8b433f668ac8.png)
+Select our resource "Honeypotlab".
+![law1](https://user-images.githubusercontent.com/107056915/173635956-b0598de6-5952-4f2e-b4a6-1c4ce47f0098.png)
+Select Create.
+![law2](https://user-images.githubusercontent.com/107056915/173635962-3eff1d2c-9978-4d2a-aeca-ce574d54e6f8.png)
+
+<br>
+
+Step 4:
+Enable gathering logs in Security Center.
+<br>
+Browse to Microsoft Defender for Cloud, select Environment Settings at the bottom left.
 
 
 
