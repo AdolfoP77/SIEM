@@ -83,7 +83,18 @@ Select Connect.
 
 Step 5:
 Set up Azure Sentinel, this is the SIEM we will use to visualize attack data.
+<br>
+Navigate to Microsoft Sentinel.
+![SIEM2](https://user-images.githubusercontent.com/107056915/173639664-2d9780a7-0ec7-4869-a626-fe2e40725c08.png)
+Select Create Microsoft Sentinel
+![SIEM2](https://user-images.githubusercontent.com/107056915/173639743-1b6c70da-da11-4e4f-b919-0bd8e50d5ae8.png)
+Select Law-honeypot1 and select add.
+![SIEM3](https://user-images.githubusercontent.com/107056915/173639671-36c00fb6-25a9-42fe-9aa2-62728a70de45.png)
 
+<br>
+
+Step 6: Log into VM
+Click on VM and Get IP address.
 
 
 
