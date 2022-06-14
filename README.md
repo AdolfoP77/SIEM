@@ -145,6 +145,19 @@ Here we see the Data. Select Run at the top.
 <br>
 Step 9:
 Create custom logs/Extract fields from raw custom logs (this teaches Analytics what to pull for data representation on the map).
+<br>
+Expand log, Right click select Extract fields, this will bring you to this page, Here we wil select the numeric value after Latitude, Write latitude in the text box review on the left, edit if neccesary and select extract. You will do this for map visualization.
+![EXTRACTLOG](https://user-images.githubusercontent.com/107056915/173663293-f5d39baa-18a5-4d00-914a-aa2f941b4f22.png)
+![EXTRACTLOG1](https://user-images.githubusercontent.com/107056915/173663307-5d29bd1c-b0f6-4e55-ae07-423fc11a8a97.png)
+![EXTRACTLOG2](https://user-images.githubusercontent.com/107056915/173663314-b614cb9d-d304-424b-a32d-aa7a1ebe02dd.png)
+![EXTRACTLOG3](https://user-images.githubusercontent.com/107056915/173663420-5c9178ca-826e-4dc0-af37-822e3ade7d64.png)
+![EXTRACTLOG4](https://user-images.githubusercontent.com/107056915/173663332-b8669e12-ecec-45c3-8407-cf75942170ea.png)
+![EXTRACTLOG5](https://user-images.githubusercontent.com/107056915/173663438-94621c76-00ea-4451-97a0-8d671a56e68a.png)
+![EXTRACTLOG6](https://user-images.githubusercontent.com/107056915/173663468-9fa0196e-5647-497c-9d9b-66171c5ba1d6.png)
+![EXTRACTLOG7](https://user-images.githubusercontent.com/107056915/173663480-8e132fc2-d0d5-41dc-a84c-3659bd48f3cb.png)
+![EXTRACTLOG8](https://user-images.githubusercontent.com/107056915/173663487-67f9063e-d426-4eea-9066-6198be3201e6.png)
+![EXTRACTLOG9](https://user-images.githubusercontent.com/107056915/173663553-5f8cf05f-33f8-4960-a08f-f4dd2188d115.png)
+![EXTRACTLOG10](https://user-images.githubusercontent.com/107056915/173663580-23789aa4-3795-441f-9773-08202c10a60c.png)
 
 
 We will use ip address and other info gathered in the Event viewer, then foward the info to a internet API (ipgeoloation.io) then this will sent this back to the Analytics workspace, we will create a custom log, and use Sentinel SIEM to plot attacks on a map.
