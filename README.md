@@ -58,6 +58,20 @@ Step 4:
 Enable gathering logs in Security Center.
 <br>
 Browse to Microsoft Defender for Cloud, select Environment Settings at the bottom left.
+![sec1](https://user-images.githubusercontent.com/107056915/173637642-06ee879c-a175-4f29-aab6-21dc2d01b535.png)
+![sec2](https://user-images.githubusercontent.com/107056915/173637659-eb1b995a-6307-431b-b602-8855814dc27e.png)
+Disable SQL Servers
+![sec3](https://user-images.githubusercontent.com/107056915/173637671-b22cb80a-3dfc-4c77-b169-835f960b75c2.png)
+Select all events and Save.
+![sec4](https://user-images.githubusercontent.com/107056915/173637681-b1a725c6-6d7f-416d-826d-e8d119f3a0e0.png)
+
+<br>
+
+Step 4:
+Connect Log Analytics to VM
+<br>
+Browse back to Log Analytics Workspaces.
+
 
 
 
