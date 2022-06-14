@@ -94,7 +94,13 @@ Select Law-honeypot1 and select add.
 <br>
 
 Step 6: Log into VM
-Click on VM and Get IP address.
+Click on VM and Get IP address, On your HOST Machine click start menu and search for Remeote desktop. (Not shown:intentional failed log in for log demonstration purposes).
+![VMLOGGIN1](https://user-images.githubusercontent.com/107056915/173640516-ae55d8e0-4595-4408-a7b0-e95122606a64.png)
+Enter Credentials created in Step 1.
+![VMLOGGIN2](https://user-images.githubusercontent.com/107056915/173640599-3b676680-4e7f-4cfa-ba4a-d528ce2bc896.png)
+![vmloggin3](https://user-images.githubusercontent.com/107056915/173640540-b6ce1265-e5e1-4171-8bdf-9f98cbfb547a.png)
+You should be able to log into VM.
+![VMLOGGIN4](https://user-images.githubusercontent.com/107056915/173640620-5e7ff6b7-8351-4fc8-8dd4-793d7d6de939.png)
 
 
 
