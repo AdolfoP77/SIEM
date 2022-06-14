@@ -120,6 +120,8 @@ https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbjh
 You will need to create a ipgeolocation.io and sign up, then paste your own API key to the Powershell script.
 <br>
 The script will output the data to c:\programdata\
+<br>
+We will use ip address and other info gathered in the Event viewer, then foward the info to a internet API (ipgeoloation.io) then this will sent this back to the Analytics workspace, we will create a custom log, and use Sentinel SIEM to plot attacks on a map.
 
 <br>
 
@@ -163,7 +165,20 @@ Expand log, Right click select Extract fields, this will bring you to this page,
 <br>
 Step 10: Set up map in Sentinel
 <br>
-Navigate to Microsoft Sentinel
+Navigate to Microsoft Sentinel, Here you can see current events and alerts up to this point. (Ensure powershell scrip, and Analytics logs are running.)
+![SENT](https://user-images.githubusercontent.com/107056915/173665605-03dc44c8-0856-4ae1-ae39-b19074badf4d.png)
+Navigate to workbooks and select add workbook.
+![SENT1](https://user-images.githubusercontent.com/107056915/173665628-b3e6f264-6489-4431-879e-fedf682641af.png)
+Select edit.
+![SENT2](https://user-images.githubusercontent.com/107056915/173665648-231b5fdc-1825-49a4-8521-a44b9f0beffb.png)
+Remove Current workbook
+![SENT3](https://user-images.githubusercontent.com/107056915/173665657-66565d1d-d2b8-448d-af99-756d86ae3ac4.png)
+Select add and add query.
+![SENT4](https://user-images.githubusercontent.com/107056915/173665684-bade6ba3-c19a-4a79-acaa-a08e4f4ddf3d.png)
+Copy and Paste following:FAILED_RDP_WITH_GEO_CL | summarize event_count=count() by sourcehost_CF, latitude_CF, longitude_CF, country_CF, label_CF, destinationhost_CF
+| where destinationhost_CF != "samplehost"
+| where sourcehost_CF != ""
+
 
 
 We will use ip address and other info gathered in the Event viewer, then foward the info to a internet API (ipgeoloation.io) then this will sent this back to the Analytics workspace, we will create a custom log, and use Sentinel SIEM to plot attacks on a map.
