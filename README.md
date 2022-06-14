@@ -126,7 +126,21 @@ The script will output the data to c:\programdata\
 Step 8:
 Create a custom log in Log Analytics Workspace to bring in our custom log.
 <br>
-
+Navigate to custom logs and select add custom log
+![customlog1](https://user-images.githubusercontent.com/107056915/173660904-11cfe16a-2b87-4ddf-8012-af6ac019d0d6.png)
+Inside of VM go to the failed_rdp file and copy the text inside, we will use this data to train the Log Analytics Workspace.
+![customlog2](https://user-images.githubusercontent.com/107056915/173660930-3fbdbb0a-faaf-4415-8463-a034990cd7ba.png)
+![customlog3](https://user-images.githubusercontent.com/107056915/173660944-3dc23306-6a59-45bb-8759-a7b4532e5f83.png)
+Name the custom log failed_rdp.log.
+![customlog4](https://user-images.githubusercontent.com/107056915/173660957-ca8c48cc-2951-4fbd-938e-fe16505a8552.png)
+![customlog5](https://user-images.githubusercontent.com/107056915/173660966-b22c3f9a-54fe-4180-b610-28e95b4ff302.png)
+Map out the path to the file.
+![customlog6](https://user-images.githubusercontent.com/107056915/173660983-b5783a33-3964-4603-9cff-ed0757b15fd7.png)
+![customlog png7](https://user-images.githubusercontent.com/107056915/173661070-59142e56-c57f-4892-8a08-8fb9ded71c47.png)
+Create.
+![customlog8](https://user-images.githubusercontent.com/107056915/173661344-69176720-3271-44e5-af18-81e2b4f2bfea.png)
+Here we see the Data. Select Run at the top.
+![customlog9](https://user-images.githubusercontent.com/107056915/173661118-ace40744-a040-41cf-9aa1-cc1d773df6bd.png)
 
 
 
