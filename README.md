@@ -5,6 +5,13 @@ In this Lab, I setup Azure Sentinel (SIEM) and connect it to a live virtual mach
 (I will be using a powershell script provided by Educator Josh Madakor).
 
 Step 1:
-Create Azure Subscription. 
+Create Azure Subscription. (You will receive a $200 credit, this will be enough to complete this lab. Make sure to delete the resources once finished to avoid unwanted charges.)
+
+<br>
+
+Step 2:
+Create Virtual Machine.
+<br>
+
 
 
