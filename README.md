@@ -166,6 +166,7 @@ Expand log, Right click select Extract fields, this will bring you to this page,
 Step 10: Set up map in Sentinel
 <br>
 Navigate to Microsoft Sentinel, Here you can see current events and alerts up to this point. (Ensure powershell scrip, and Analytics logs are running.)
+
 ![SENT](https://user-images.githubusercontent.com/107056915/173665605-03dc44c8-0856-4ae1-ae39-b19074badf4d.png)
 Navigate to workbooks and select add workbook.
 ![SENT1](https://user-images.githubusercontent.com/107056915/173665628-b3e6f264-6489-4431-879e-fedf682641af.png)
