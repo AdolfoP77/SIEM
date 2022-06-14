@@ -94,6 +94,7 @@ Select Law-honeypot1 and select add.
 <br>
 
 Step 6: Log into VM
+<br>
 Click on VM and Get IP address, On your HOST Machine click start menu and search for Remeote desktop. (Not shown:intentional failed log in for log demonstration purposes).
 ![VMLOGGIN1](https://user-images.githubusercontent.com/107056915/173640516-ae55d8e0-4595-4408-a7b0-e95122606a64.png)
 Enter Credentials created in Step 1.
@@ -109,6 +110,22 @@ Next we will disable the Firewall inside of the VM so it is discoverable on the 
 ![wf1](https://user-images.githubusercontent.com/107056915/173656770-f9fae2f6-7d99-40ea-acd2-5bdfab2826d3.png)
 ![wf](https://user-images.githubusercontent.com/107056915/173656783-3a14ea1f-ae5c-48f8-873e-d3d801f9c2c2.png)
 
+<br>
+
+Step 7:
+Download Powershell script. 
+<br>
+https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbjhnT3o5VXlpZ3hHNGQ4RjE0US1DeUlLcG84Z3xBQ3Jtc0ttM3dwMDh1emt4MHpOanYteHJxOW5kUC1uODhqTHpQc1VMTGNzbHNsa2hIeEdUaW1yLUs1Tl9KOXhWS0xLRFl0RjJqcDFpbXhTWXZIR0dudVZuWHAyUk9va2syU2p3QjZKRjBSREhJeVdmT0RDT05Qbw&q=https%3A%2F%2Fgithub.com%2Fjoshmadakor1%2FSentinel-Lab%2Fblob%2Fmain%2FCustom_Security_Log_Exporter.ps1&v=RoZeVbbZ0o0
+<br>
+You will need to create a ipgeolocation.io and sign up, then paste your own API key to the Powershell script.
+<br>
+The script will output the data to c:\programdata\
+
+<br>
+
+Step 8:
+Create a custom log in Log Analytics Workspace to bring in our custom log.
+<br>
 
 
 
