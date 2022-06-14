@@ -101,8 +101,19 @@ Enter Credentials created in Step 1.
 ![vmloggin3](https://user-images.githubusercontent.com/107056915/173640540-b6ce1265-e5e1-4171-8bdf-9f98cbfb547a.png)
 You should be able to log into VM.
 ![VMLOGGIN4](https://user-images.githubusercontent.com/107056915/173640620-5e7ff6b7-8351-4fc8-8dd4-793d7d6de939.png)
-Browse to Event viewer inside the VM.
+Browse to Event viewer inside the VM, Select windows logs and Security Logs
+![vmevent1](https://user-images.githubusercontent.com/107056915/173656726-76598c38-6731-43b3-82ae-3dabfcb16d6a.png)
+Select Event 4625, Here you can see the Failed logon we did (not shown) along with reasons and other information regarding the attempt.
+![vmloggin5](https://user-images.githubusercontent.com/107056915/173656762-3d39c5fa-ec48-4abd-87a2-9f9dd78f4edf.png)
+Next we will disable the Firewall inside of the VM so it is discoverable on the internet faster.
+![wf1](https://user-images.githubusercontent.com/107056915/173656770-f9fae2f6-7d99-40ea-acd2-5bdfab2826d3.png)
+![wf](https://user-images.githubusercontent.com/107056915/173656783-3a14ea1f-ae5c-48f8-873e-d3d801f9c2c2.png)
 
 
 
+
+
+
+
+We will use ip address and other info gathered in the Event viewer, then foward the info to a internet API (ipgeoloation.io) then this will sent this back to the Analytics workspace, we will create a custom log, and use Sentinel SIEM to plot attacks on a map.
 
