@@ -142,8 +142,9 @@ Create.
 Here we see the Data. Select Run at the top.
 ![customlog9](https://user-images.githubusercontent.com/107056915/173661118-ace40744-a040-41cf-9aa1-cc1d773df6bd.png)
 
-
-
+<br>
+Step 9:
+Create custom logs/Extract fields from raw custom logs (this teaches Analytics what to pull for data representation on the map).
 
 
 We will use ip address and other info gathered in the Event viewer, then foward the info to a internet API (ipgeoloation.io) then this will sent this back to the Analytics workspace, we will create a custom log, and use Sentinel SIEM to plot attacks on a map.
