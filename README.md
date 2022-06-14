@@ -70,7 +70,19 @@ Select all events and Save.
 Step 4:
 Connect Log Analytics to VM
 <br>
-Browse back to Log Analytics Workspaces.
+Browse back to Log Analytics Workspace, select our resource.
+![log1](https://user-images.githubusercontent.com/107056915/173638484-d17fdd87-4fb7-40a6-b279-e97e745c6b97.png)
+Select Virtual Machines.
+![log2](https://user-images.githubusercontent.com/107056915/173638508-46423073-b390-4ad5-ad11-b6ff07f2f669.png)
+Select Law-honeypot1.
+![log3](https://user-images.githubusercontent.com/107056915/173638513-3e314986-7ac8-4815-9ea5-4ce2bc67db9f.png)
+Select Connect.
+![log4](https://user-images.githubusercontent.com/107056915/173638527-71766c4f-e5b9-4451-975c-ac859c5695b9.png)
+
+<br>
+
+Step 5:
+Set up Azure Sentinel 
 
 
 
