@@ -147,6 +147,7 @@ Step 9:
 Create custom logs/Extract fields from raw custom logs (this teaches Analytics what to pull for data representation on the map).
 <br>
 Expand log, Right click select Extract fields, this will bring you to this page, Here we wil select the numeric value after Latitude, Write latitude in the text box review on the left, edit if neccesary and select extract. You will do this for map visualization.
+
 ![EXTRACTLOG](https://user-images.githubusercontent.com/107056915/173663293-f5d39baa-18a5-4d00-914a-aa2f941b4f22.png)
 ![EXTRACTLOG1](https://user-images.githubusercontent.com/107056915/173663307-5d29bd1c-b0f6-4e55-ae07-423fc11a8a97.png)
 ![EXTRACTLOG2](https://user-images.githubusercontent.com/107056915/173663314-b614cb9d-d304-424b-a32d-aa7a1ebe02dd.png)
@@ -163,6 +164,7 @@ Expand log, Right click select Extract fields, this will bring you to this page,
 Step 10: Set up map in Sentinel
 <br>
 Navigate to Microsoft Sentinel
+
 
 We will use ip address and other info gathered in the Event viewer, then foward the info to a internet API (ipgeoloation.io) then this will sent this back to the Analytics workspace, we will create a custom log, and use Sentinel SIEM to plot attacks on a map.
 
