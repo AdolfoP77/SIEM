@@ -175,11 +175,24 @@ Remove Current workbook
 ![SENT3](https://user-images.githubusercontent.com/107056915/173665657-66565d1d-d2b8-448d-af99-756d86ae3ac4.png)
 Select add and add query.
 ![SENT4](https://user-images.githubusercontent.com/107056915/173665684-bade6ba3-c19a-4a79-acaa-a08e4f4ddf3d.png)
-Copy and Paste following:FAILED_RDP_WITH_GEO_CL | summarize event_count=count() by sourcehost_CF, latitude_CF, longitude_CF, country_CF, label_CF, destinationhost_CF
+Copy, Paste, and Run following:FAILED_RDP_WITH_GEO_CL | summarize event_count=count() by sourcehost_CF, latitude_CF, longitude_CF, country_CF, label_CF, destinationhost_CF
 | where destinationhost_CF != "samplehost"
 | where sourcehost_CF != ""
+![MAP](https://user-images.githubusercontent.com/107056915/173666497-1f6b7f1d-c12c-46f9-a402-7014b12ffb4a.png)
+Next open map settings and apply the following.
+![MAP1](https://user-images.githubusercontent.com/107056915/173666508-25c5ecba-d88b-4829-b35d-44ed6cea1858.png)
+Here we can see the attacks on the VM visualized.
+![MAP2](https://user-images.githubusercontent.com/107056915/173666521-233ed622-ed0e-4fcf-a406-55cd2dcb7646.png)
+![MAP3](https://user-images.githubusercontent.com/107056915/173666564-9d0daa4b-c233-40e9-adaf-0fe29ef41182.png)
+![MAP4](https://user-images.githubusercontent.com/107056915/173666582-75ece196-9668-40ff-8fad-697b9554bfcf.png)
+![MAP5](https://user-images.githubusercontent.com/107056915/173666590-3d49ed00-39ee-43af-b8bb-76d1a1742c1f.png)
+Here i will attempt 2 failed login's to the VM to show that the lab works.
+![MAP6](https://user-images.githubusercontent.com/107056915/173666599-12b703c0-02ce-4d24-bd9e-937b02949095.png)
+It works!
+![MAP7](https://user-images.githubusercontent.com/107056915/173666656-3e4afc67-8341-49e5-bddc-9a29de4ad223.png)
 
 
-
-We will use ip address and other info gathered in the Event viewer, then foward the info to a internet API (ipgeoloation.io) then this will sent this back to the Analytics workspace, we will create a custom log, and use Sentinel SIEM to plot attacks on a map.
+Thank you and let me know if you have any questions.
+<br> 
+I used Josh Madakors Poweshell script for this Lab.
 
