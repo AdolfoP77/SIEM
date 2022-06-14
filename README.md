@@ -159,6 +159,10 @@ Expand log, Right click select Extract fields, this will bring you to this page,
 ![EXTRACTLOG9](https://user-images.githubusercontent.com/107056915/173663553-5f8cf05f-33f8-4960-a08f-f4dd2188d115.png)
 ![EXTRACTLOG10](https://user-images.githubusercontent.com/107056915/173663580-23789aa4-3795-441f-9773-08202c10a60c.png)
 
+<br>
+Step 10: Set up map in Sentinel
+<br>
+Navigate to Microsoft Sentinel
 
 We will use ip address and other info gathered in the Event viewer, then foward the info to a internet API (ipgeoloation.io) then this will sent this back to the Analytics workspace, we will create a custom log, and use Sentinel SIEM to plot attacks on a map.
 
