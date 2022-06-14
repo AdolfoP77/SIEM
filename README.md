@@ -101,6 +101,7 @@ Enter Credentials created in Step 1.
 ![vmloggin3](https://user-images.githubusercontent.com/107056915/173640540-b6ce1265-e5e1-4171-8bdf-9f98cbfb547a.png)
 You should be able to log into VM.
 ![VMLOGGIN4](https://user-images.githubusercontent.com/107056915/173640620-5e7ff6b7-8351-4fc8-8dd4-793d7d6de939.png)
+Browse to Event viewer inside the VM.
 
 
 
